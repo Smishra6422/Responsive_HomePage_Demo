@@ -1,0 +1,105 @@
+.customerContainer {
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: auto;
+    display: flex;
+    display: -webkit-box;  
+    display: -ms-flexbox;  
+    display: -webkit-flex;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: 	rgb(249,249,249);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 0.9rem;
+}
+
+.customerDetail {
+    position: relative;
+    padding-left: 0.2rem;
+    width: 60%;
+}
+
+.customerAvatar {
+    width: 100%;
+}
+
+.customerAvatar img {
+    width: 25%;
+    height: 7.5rem;
+}
+
+.newsFeed {
+    padding-right: 0.2rem;
+    width: 30%;
+}
+
+.customerDetailHeading h3, .newsContainerHeading h3{
+    color: #7bc043;
+    margin: 0;
+    margin-top: 0.4rem;
+}
+
+.customerDetailHeading hr, .newsContainerHeading hr{
+    height: 1.1px;
+    background-color: #7bc043;
+}
+
+.customerDetailDescription, .newsData {
+    position: relative;
+}
+
+.customerDetailDescription {
+    width: 80%;
+}
+
+.customerLink {
+    position: absolute;
+    bottom: 0;
+    right: 2px;
+    margin-bottom: -1.2rem;
+}
+
+.newsHeadline h5 {
+    color: #7bc043;
+}
+
+.customerDetailDescription p {
+    margin: 0;
+}
+
+.customerLink {
+    color: #7bc043;
+}
+
+.customerLink:hover {
+    cursor: pointer;
+}
+
+.newsHeadline h5, .newsData p, .newsDate p {
+    margin: 0;
+}
+
+.newsData p, .customerDetailDescription p {
+    overflow: hidden;
+    height: 3.5rem;
+    opacity: 0.7;
+
+}
+
+.newsItems {
+    margin-bottom: 2rem;
+}
+
+.customerDetailDescription {
+    margin-bottom: 2rem;
+}
+
+.newsHeadline, .newsDate {
+    margin-bottom: 0.5rem;
+}
+
+.newsDate {
+    margin-bottom: 1rem;
+}

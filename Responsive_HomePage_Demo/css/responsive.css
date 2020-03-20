@@ -1,0 +1,402 @@
+@media (max-width:77rem) {
+    .imageSlider {
+        height: 22rem;
+    }
+
+    .imageSliderHeading {
+        font-size: 1rem;
+    }
+
+    .lifeStyleHeading {
+        font-size: 1.2rem;
+    }
+
+    .lifeStyleContainerHead h2 {
+        font-size: 1.1rem;
+    }
+
+    .lifeStyleImageHeading h3 {
+        font-size: 0.9rem;
+    }
+
+    .lifeStyleImageDescription p {
+        font-size: 0.9rem;
+    }
+
+    .customerDetailHeading h3, .newsContainerHeading h3 {
+        font-size: 1rem;
+    }
+
+    .customerAvatar img {
+        height: 6.2rem;
+    }
+
+    .imageData img, .videoData img {
+        width: 45%;
+        height: 6.2rem;
+    }
+}
+
+@media (max-width:64rem) {
+
+    .division {
+        display: none;
+    }
+
+    .LifeStyleLink {
+        width: 73%;
+    }
+
+    .lifeStyleContainerHead h2 {
+        font-size: 0.9rem;
+    }
+
+    .imageSliderLink a{
+        font-size: 0.7rem;
+    }
+
+    .lifeStyleImageDescription p {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:58rem) { 
+
+    .imageSlider {
+        height: 25rem;
+    }
+
+    .imageSliderHeading h3 {
+        font-size: 0.9rem;
+    }
+
+    .imageSliderDescription p { 
+        font-size: 0.9rem;
+    }
+
+    .imageSliderLink {
+        width: 82%;
+    }
+
+    .imageSliderLink a{
+        font-size: 0.7rem;
+    }
+
+    .footerLeftSide, .footerRightSide {
+        width: 100%;
+    }
+
+    .footerLeftSide ul, .footerRightSide ul {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        display: -webkit-box;  
+        display: -ms-flexbox;  
+        display: -webkit-flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        -ms-flex-pack: distribute;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footerLeftSide ul li {
+        width: 20%;
+    }
+
+    .footerRightSide ul li {
+        width: 100%;
+    }
+
+    .footerRightSide ul li a{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width:59rem) {
+    .center-menu {
+        display: none;
+    }
+    
+    .menu-bar {
+        display: block;
+    }
+
+    .imageContainerHeading h3, .imageContainerHeading h3 {
+        font-size: 0.8rem;
+    }
+ }
+
+@media (max-width:53rem) {
+
+    
+
+    .LifeStyleLink {
+        width: 40%;
+    }
+
+    .lifeStyleSection {
+        height: auto;
+    }
+
+    .LifeStyleLink {
+        position: relative;
+    }
+
+    .lifeStyleItems  {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .lifeStyleConnect, .lifeStyleDiscover   {
+        height: 15rem;
+    }
+
+    .lifeStyleContainerHead {
+        padding: 1% 1.5%;
+    }
+    
+    .lifeStyleDiscover  {
+        margin-bottom: 1.5rem;
+    }
+
+    .lifeStyleImageDescription, .lifeStyleImageHeading{
+        padding-left: 2%;
+    }
+
+    .lifeStyleImage {
+        width: 80%;
+        height: 8.5rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .footerLeftSide, .footerRightSide {
+        width: 100%;
+    }
+}
+
+@media (max-width:40rem) {
+
+    .logo {
+        left: 2%;
+        width: 35%;
+    }
+
+    .imageSlider, .lifeStyleSection, .customerContainer, .mediaContainer {
+        width: 90%;
+    }
+
+    .imageSlider {
+        height: 22.5rem;
+    }
+
+    .imageSliderHeading h3{
+        font-size: 0.7rem;
+    }
+
+    .imageSliderDescription p{
+        font-size: 0.6rem;
+    }
+
+    .imageSliderLink {
+        width: 90%;
+        height: 1rem;
+        line-height: 1rem;
+    }
+
+    .imageSliderLink a{
+        font-size: 0.6rem;
+    }
+
+    .lifeStyleHeading {
+        font-size: 0.8rem;
+    }
+
+    .lifeStyleDescription p {
+        font-size: 0.9rem;
+    }
+
+    .LifeStyleLink {
+        height: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .LifeStyleLink a {
+        font-size: 0.9rem;
+    }
+
+    .lifeStyleContainerHead {
+        padding: 0;
+    }
+
+    .lifeStyleContainer {
+        height: 17rem;
+    }
+
+    .lifeStyleContainerHead h2 {
+        font-size: 0.9rem;
+    }
+
+    .lifeStyleImageHeading {
+        padding: 0;
+    }
+
+    .lifeStyleImageHeading h3 {
+        font-size: 0.8rem;
+    }
+
+    .lifeStyleImageDescription {
+        padding: 0;
+    }
+
+    .lifeStyleImageDescription p {
+        font-size: 0.8rem;
+    }
+
+    .customerDetail, .newsFeed {
+        width: 100%;
+    }
+
+    .customerDetailDescription {
+        width: 90%;
+    }
+
+    .customerAvatar {
+        position: relative;
+        display: flex;
+        display: -webkit-box;  
+        display: -ms-flexbox;  
+        display: -webkit-flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        -ms-flex-pack: distribute;
+    }
+
+    .customerAvatar img {
+        width: 30%;
+    }
+
+    .newsContainerHeading, .newsItems {
+        padding-left: 1%;
+    }
+
+    .newsContainerHeading h3 {
+        font-size: 0.8rem;
+    }
+
+    .newsDate p, .newsData p, .newsData a {
+        font-size: 0.8rem;
+    }
+
+    .imageContainer, .videoContainer {
+        width: 100%;
+    }
+
+    .imageContainerHeading, .imageData, .imageDescription,
+    .videoData, .videoDescription {
+        padding: 0 1%;
+    }
+
+    .imageContainerHeading h3{
+        font-size: 0.8rem;
+    }
+
+    .imageData img, .videoData img {
+        width: 47%;
+    }
+
+    .videoDescription p, .imageDescription p {
+        font-size: 0.8rem;
+    }
+
+
+    .imagePopUp {
+        width: 70%;
+        height: 10rem;
+    }
+
+    .imagePopUp .controller {
+        top: 4.5rem;
+    }
+
+    .imagePopUp .controller a:nth-child(1) {
+        left: -2.2rem;
+        width: 2rem;
+    }
+
+    .imagePopUp .controller a:nth-child(2) {
+        right: -2.2rem;
+        width: 2rem;
+    }
+
+    .imagePopUp img {
+        height: 85%;
+    }
+
+    .videoPopUp {
+        width: 70%;
+        height: 10rem;
+    }
+
+    .videoPopUp .controller {
+        top: 4.5rem;
+    }
+
+    .videoPopUp .controller a:nth-child(1) {
+        left: -2.2rem;
+        width: 2rem;
+    }
+
+    .videoPopUp .controller a:nth-child(2) {
+        right: -2.2rem;
+        width: 2rem;
+    }
+
+    .videoPopUp iframe {
+        height: 85%;
+    }
+
+    .footerLeftSide, .footerRightSide {
+        width: 100%;
+    }
+
+    .footerLeftSide ul, .footerRightSide ul {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        display: -webkit-box;  
+        display: -ms-flexbox;  
+        display: -webkit-flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        -ms-flex-pack: distribute;
+        margin-bottom: 0.5rem;
+    }
+
+    .footerLeftSide ul li {
+        width: 40%;
+    }
+
+    .footerRightSide ul li {
+        width: 100%;
+    }
+
+    .footerRightSide ul li a{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    } 
+
+}
